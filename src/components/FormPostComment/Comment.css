@@ -1,0 +1,132 @@
+.comment {
+  margin-top: 60px;
+}
+
+.comment-title {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.comment-control {
+  position: relative;
+}
+
+.comment-control input {
+  width: 100%;
+  padding: 14px 50px;
+  border-radius: 50px;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.63);
+  background-color: transparent;
+  color: #fff;
+  font-size: 14px;
+}
+
+.comment-control input::placeholder {
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.6;
+}
+
+.comment-control .avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  position: absolute;
+  left: 27px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.comment-control .send-icon {
+  height: 100%;
+  padding: 10px 20px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  transform: translateY(-50%);
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  background-color: transparent;
+  border-left: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.show-comment {
+  margin-top: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.699);
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.show-comment-avatar img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.show-comment-items {
+  color: #fff;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.show-comment-items:last-child {
+  margin-bottom: 0px;
+}
+
+.show-comment-name-time {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.show-comment-name-time p {
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 300;
+  opacity: 0.6;
+}
+
+.not-comment {
+  width: 100%;
+  padding: 14px 50px;
+  border-radius: 50px;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.63);
+  background-color: transparent;
+  color: #fff;
+  /* font-size: 16px; */
+}
+
+.not-comment h3 {
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.not-comment a {
+  color: #3498db;
+}
+
+.show-comment-avatar {
+  display: flex;
+  align-items: center;
+}
+
+.show-comment-info p {
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.show-comment-name-time h3 {
+  font-size: 14px;
+  font-weight: 400;
+}
